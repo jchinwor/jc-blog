@@ -1,3 +1,6 @@
+
+![Screenshot 2024-03-27 at 21-25-20 Blog JBLOG](https://github.com/jchinwor/jc-blog/assets/90245242/6f1d5dff-ecaa-4828-b163-6541ba6c5895)
+
 # jblog
 
 ## Project setup
