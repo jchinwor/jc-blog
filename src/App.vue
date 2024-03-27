@@ -4,7 +4,7 @@
   <router-view/>
 </div>
 <Footer />
-</template>
+</template> 
 
 <script>
 import Header from './components/Header.vue'
