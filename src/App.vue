@@ -1,7 +1,11 @@
 <template>
  <Header />
 <div >
-  <router-view/>
+ <router-view v-slot="{ Component }">
+  <transition name="fade" >
+    <component :is="Component" />
+  </transition>
+</router-view>
 </div>
 <Footer />
 </template> 
@@ -19,6 +23,15 @@ export default{
 </script>
 
 <style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.35s ease;
+}
+
+.fade-enter-from,
+.fade-leave-active {
+  opacity: 0;
+}
 /* .navbar a.router-link-exact-active {
   color: #fff!important;
   background:#ff9700;
