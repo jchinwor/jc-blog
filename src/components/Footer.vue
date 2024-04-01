@@ -4,7 +4,7 @@
      <div class="left box">
        <div class="upper">
          <div class="topic">About us</div>
-         <p>Simple blog with vue js, firebase and Boostrap, users can view blog posts.</p>
+         <p>Simple blog with vue js, firebase and Boostrap</p>
        </div>
       
      </div>
